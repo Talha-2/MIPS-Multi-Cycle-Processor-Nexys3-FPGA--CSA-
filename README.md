@@ -1,13 +1,13 @@
 
 
-# 🚀 Multicycle Processor (Verilog)
+#  Multicycle Processor (Verilog)
 
 This repository contains the Verilog implementation of a **Multicycle Processor** as part of the *Computer Systems Architecture (CSA)* course project.
 The processor is designed to execute instructions in multiple cycles using separate modules for datapath and control.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── ALU.v                     # Arithmetic Logic Unit
@@ -33,7 +33,7 @@ The processor is designed to execute instructions in multiple cycles using separ
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Prerequisites
 
@@ -78,7 +78,7 @@ The processor is designed to execute instructions in multiple cycles using separ
 
 ---
 
-## 📊 Features
+##  Features
 
 * **Multicycle execution** – splits instruction execution into multiple stages (fetch, decode, execute, memory, write-back).
 * **ALU operations** – supports addition, subtraction, AND, OR, XOR, NOR, and shifts.
@@ -88,7 +88,7 @@ The processor is designed to execute instructions in multiple cycles using separ
 
 ---
 
-## 🧪 Example Run
+## Example Run
 
 You can load instructions into `Memory.v` and simulate the processor.
 Registers can be initialized using `Register_file.txt`.
